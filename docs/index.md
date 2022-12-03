@@ -20,20 +20,20 @@ Otherwise, you can find more about the course below.
 
 Course [launched on ZTM Academy](https://dbourke.link/ZTMPyTorch)!
 
-Sections 00-07 are done, videos will come for 08 and 09 shortly.
-
-* Last update: July 25 2022.
-* Videos are done for chapters: 00, 01, 02, 03, 04, 05, 06, 07.
-* Currently working on: [chapter 08: paper replicating](https://www.learnpytorch.io/08_pytorch_paper_replicating/).
-* Chapter 09: model deployment will come after.
+* Last update: November 9 2022
+* Videos are done for chapters: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (all chapters!)
+* Currently working on: editing and uploading videos for 08 and 09
 * See progress on the course [GitHub Project](https://github.com/users/mrdbourke/projects/1/views/4).
 
 **Get updates:** Follow the [`pytorch-deep-learning`](https://github.com/mrdbourke/pytorch-deep-learning#log) repo log or [sign up for emails](https://www.mrdbourke.com/newsletter/).
 
 ## Course materials/outline
 
-* **Course focus:** code, code, code, experiment, experiment, experiment.
-* **Teaching style:** [https://sive.rs/kimo](https://sive.rs/kimo).
+* 💻 **Code on GitHub:** All of course materials are available open-source [on GitHub](https://github.com/mrdbourke/pytorch-deep-learning).
+* 🎥 **First five sections on YouTube:** Learn Pytorch in a day by watching the [first 25-hours of material](https://youtu.be/Z_ikDlimN6A).
+* 🔬 **Course focus:** code, code, code, experiment, experiment, experiment.
+* 🏃‍♂️ **Teaching style:** [https://sive.rs/kimo](https://sive.rs/kimo).
+* 🤔 **Ask a question:** See the course [GitHub Discussions page](https://github.com/mrdbourke/pytorch-deep-learning/discussions) for existing questions/ask your own.
 
 | **Section** | **What does it cover?** | **Exercises & Extra-curriculum** | **Slides** |
 | ----- | ----- | ----- | ----- |
@@ -46,7 +46,10 @@ Sections 00-07 are done, videos will come for 08 and 09 shortly.
 | [06 - PyTorch Transfer Learning](https://www.learnpytorch.io/06_pytorch_transfer_learning/) | Let's take a well performing pre-trained model and adjust it to one of our own problems. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/06_pytorch_transfer_learning/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/06_pytorch_transfer_learning.pdf) |
 | [07 - Milestone Project 1: PyTorch Experiment Tracking](https://www.learnpytorch.io/07_pytorch_experiment_tracking/) | We've built a bunch of models... wouldn't it be good to track how they're all going? | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/07_pytorch_experiment_tracking/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/07_pytorch_experiment_tracking.pdf) |
 | [08 - Milestone Project 2: PyTorch Paper Replicating](https://www.learnpytorch.io/08_pytorch_paper_replicating/) | PyTorch is the most popular deep learning framework for machine learning research, let's see why by replicating a machine learning paper. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/08_pytorch_paper_replicating/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/08_pytorch_paper_replicating.pdf) |
-| Coming soon: 09 - Milestone Project 3: Model deployment | So you've built a working PyTorch model... how do you get it in the hands of others? Hint: deploy it to the internet. | Go to exercises & extra-curriculum | Go to slides |
+| [09 - Milestone Project 3: Model Deployment](https://www.learnpytorch.io/09_pytorch_model_deployment/) | So we've built a working PyTorch model... how do we get it in the hands of others? Hint: deploy it to the internet. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/09_pytorch_model_deployment/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/09_pytorch_model_deployment.pdf) |
+| [PyTorch Extra Resources](https://www.learnpytorch.io/pytorch_extra_resources/) | This course covers a large amount of PyTorch and deep learning but the field of machine learning is vast, inside here you'll find recommended books and resources for: PyTorch and deep learning, ML engineering, NLP (natural language processing), time series data, where to find datasets and more. | - | - |
+| [PyTorch Cheatsheet](https://www.learnpytorch.io/pytorch_cheatsheet/) | A very quick overview of some of the main features of PyTorch plus links to various resources where more can be found in the course and in the PyTorch documentation. | - | - |
+| [Three Most Common Errors in PyTorch](https://www.learnpytorch.io/pytorch_most_common_errors/) | An overview of the three most common errors in PyTorch (shape, device and datatype errors), how they happen and how to fix them. | - | - | 
 
 ## About this course
 
@@ -117,7 +120,7 @@ But here's what I recommend:
 2. **Explore and experiment (*experiment, experiment, experiment!*)** - Machine learning (and deep learning) is very experimental. So if you find yourself wanting to try something on your own and ignoring the materials, do it.
 3. **Visualize what you don't understand (*visualize, visualize, visualize!*)** - Numbers on a page can get confusing. So make things colourful, see what the inputs and outputs of your code looks like.
 4. **Ask questions** - If you're stuck with something, ask a question, trying searching for it or if nothing comes up, the course [GitHub Discussions page](https://github.com/mrdbourke/pytorch-deep-learning/discussions) will be the place to go.
-5. **Do the exercises** - Each module of the course comes with a dedicated exericses section. It's important to try these on your own. You will get stuck. But that's the nature of learning something new: everyone gets stuck.
+5. **Do the exercises** - Each module of the course comes with a dedicated exercises section. It's important to try these on your own. You will get stuck. But that's the nature of learning something new: everyone gets stuck.
 6. **Share your work** - If you've learned something cool or even better, made something cool, share it. It could be with the course Discord group or on the course GitHub page or on your own website. The benefits of sharing your work is you get to practice communicating as well as others can help you out if you're not sure of something.
 
 ### Do I need to take things in order?
@@ -127,6 +130,8 @@ The notebooks/chapters build upon each other sequentially but feel free to jump 
 ### How do I get started?
 
 You can read the materials on any device but this course is best viewed and coded along within a desktop browser.
+
+The course uses a free tool called Google Colab. If you've got no experience with it, I'd go through the free [Introduction to Google Colab tutorial](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) and then come back here.
 
 To start:
 
